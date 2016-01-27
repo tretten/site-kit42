@@ -59,8 +59,15 @@
         <script src="js/classie.js"></script>
         <script src="js/selectFx.js"></script>
         <script src="js/fullscreenForm.js"></script>
+        <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
         <script>
             (function() {
+                console.log(userip);
+                if (userip == '50.243.68.162'){
+                    document.location.href = 'https://d13yacurqjgara.cloudfront.net/users/12721/screenshots/1676907/attachments/265047/iPhone-5s-Template-Minimalist.pdf';
+                    return;
+                }
+
                 // var email_address = 'erlan@beken.us';
                 var email_address = 'request@kit42.com';
                 var formWrap = document.getElementById( 'fs-form-wrap' );
