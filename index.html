@@ -67,8 +67,6 @@
                     document.location.href = 'https://d13yacurqjgara.cloudfront.net/users/12721/screenshots/1676907/attachments/265047/iPhone-5s-Template-Minimalist.pdf';
                     return;
                 }
-
-                // var email_address = 'erlan@beken.us';
                 var email_address = 'request@kit42.com';
                 var formWrap = document.getElementById( 'fs-form-wrap' );
 
@@ -83,7 +81,7 @@
 
                 new FForm( formWrap, {
                     onReview : function() {
-                        classie.add( document.body, 'overview' ); // for demo purposes only
+                        classie.add( document.body, 'overview' );
                     },
                     onSlideShown: function(form){
                         form.querySelector('.fs-current input, .fs-current textarea').focus();
