@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, article, aside, footer {
+    display: block;
+}
+
+body {
+    height: 100%;
+    font: 12px / 18px;
+    font-family: 'Montserrat', sans-serif;
+    background: #303b4b url('http://ripple.pixelthrone.it/v1.1/wp-content/uploads/2014/02/home_bg1.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: blue;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 18px
+}
+
+img {
+    border: none;
+}
+
+input {
+    vertical-align: middle;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.left {
+    display: block;
+    float: left;
+}
+
+.right {
+    display: block;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#t {
+    display: block;
+    width: 240px;
+    height: 350px;
+    background: url('tretten.png') 0 0 no-repeat;
+    background-size: contain;
+    margin: 15% auto;
+}
+
+#t h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 240px;
+    letter-spacing: .1em;
+}
+
+#t h2 {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
